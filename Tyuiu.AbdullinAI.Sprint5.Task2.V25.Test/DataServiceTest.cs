@@ -12,8 +12,8 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task2.V25.Test
         public void ValidSaveToFileTextData()
         {
             string path = @"C:\Users\hahaha\source\repos\Tyuiu.AbdullinAI.Sprint5\Tyuiu.AbdullinAI.Sprint5.Task2.V25\bin\Debug\OutPutFileTask2.csv";
-            FileInfo fileinfo = new FileInfo(path);
-            bool fileExists = fileinfo.Exists;
+            FileInfo fileinf = new FileInfo(path);
+            bool fileExists = fileinf.Exists;
             bool wait = true;
             Assert.AreEqual(wait, fileExists);
         }

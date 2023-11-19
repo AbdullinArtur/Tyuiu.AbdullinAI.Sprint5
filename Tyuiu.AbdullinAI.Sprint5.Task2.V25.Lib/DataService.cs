@@ -14,8 +14,8 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task2.V25.Lib
         {
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask2.csv";
 
-            FileInfo fileinfo = new FileInfo(path);
-            bool fileExists = fileinfo.Exists;
+            FileInfo fileinf = new FileInfo(path);
+            bool fileExists = fileinf.Exists;
 
             if (fileExists == true)
             {

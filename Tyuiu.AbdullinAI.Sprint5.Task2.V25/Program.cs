@@ -33,7 +33,7 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task2.V25
             int rows = matrix.GetUpperBound(0) + 1;
             int cols = matrix.GetUpperBound(1) + 1;
 
-            Console.WriteLine("Массив: ");
+            Console.WriteLine("Массив:: ");
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
