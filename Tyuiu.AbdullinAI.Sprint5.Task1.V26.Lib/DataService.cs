@@ -22,12 +22,12 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task1.V26.Lib
                 File.Delete(path);
             }
 
-            double y;
-            string strY;
+            double a;
+            string strA;
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round( ((2 * x + 6) / (Math.Cos(x) + x)) - 3, 2);
+                a = Math.Round( ((2 * x + 6) / (Math.Cos(x) + x)) - 3, 2);
 
                 if (Math.Cos(x) + x == 0)
                 {
@@ -35,15 +35,15 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task1.V26.Lib
                 }
                 else
                 {
-                    strY = y.ToString();
+                    strA = a.ToString();
 
                     if (x != stopValue)
                     {
-                        File.AppendAllText(path, strY + Environment.NewLine);
+                        File.AppendAllText(path, strA + Environment.NewLine);
                     }
                     else
                     {
-                        File.AppendAllText(path, strY);
+                        File.AppendAllText(path, strA);
                     }
                 }                
             }

@@ -11,9 +11,9 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task1.V26.Test
         [TestMethod]
         public void ValidSaveToFileTextData()
         {
-            string path = @"C:\Users\hahaha\source\repos\Tyuiu.AbdullinAI.Sprint5\Tyuiu.AbdullinAI.Sprint5.Task1.V26\bin\Debug\OutPutFileTask1.txt";
+            string pathh = @"C:\Users\hahaha\source\repos\Tyuiu.AbdullinAI.Sprint5\Tyuiu.AbdullinAI.Sprint5.Task1.V26\bin\Debug\OutPutFileTask1.txt";
 
-            FileInfo fileInfo = new FileInfo(path);
+            FileInfo fileInfo = new FileInfo(pathh);
 
             bool fileExists = fileInfo.Exists;
             bool wait = true;

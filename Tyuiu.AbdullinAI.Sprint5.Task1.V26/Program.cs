@@ -40,7 +40,7 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task1.V26
 
             string res = ds.SaveToFileTextData(x,y);
             Console.WriteLine("Файл: " + res);
-            Console.WriteLine("Создан!");
+            Console.WriteLine("Создан!!");
             Console.ReadKey();
         }
     }
