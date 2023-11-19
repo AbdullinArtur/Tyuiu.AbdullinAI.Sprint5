@@ -13,14 +13,14 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task0.V23.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
+            string pathh = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
 
             double z = (1 + Math.Pow(x, 3)) / Math.Pow(x, 2);
 
             z = Math.Round(z, 3);
 
-            File.WriteAllText(path, z.ToString()); // или Convert.ToString(z);
-            return path;
+            File.WriteAllText(pathh, z.ToString()); // или Convert.ToString(z);
+            return pathh;
         }
     }
 }

@@ -37,7 +37,7 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task0.V23
 
             string res = ds.SaveToFileTextData(x);
             Console.WriteLine("Файл: " + res);
-            Console.WriteLine("Создан!");
+            Console.WriteLine("Создан!!");
             Console.ReadKey();
         }
     }
