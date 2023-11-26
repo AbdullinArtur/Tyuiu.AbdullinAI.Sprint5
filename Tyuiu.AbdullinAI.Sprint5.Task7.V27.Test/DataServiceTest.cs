@@ -11,7 +11,7 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task7.V27.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"\DataSprint5\OutPutDataFileTask7V27.txt"; 
+            string path = @"\DataSprint5\OutPutDataFileTask7V27.txt";
             FileInfo fileinf = new FileInfo(path);
             bool fex = fileinf.Exists;
             Assert.AreEqual(true, fex);

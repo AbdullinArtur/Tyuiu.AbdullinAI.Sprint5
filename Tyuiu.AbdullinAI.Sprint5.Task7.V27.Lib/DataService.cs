@@ -28,19 +28,19 @@ namespace Tyuiu.AbdullinAI.Sprint5.Task7.V27.Lib
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
-                while((line = reader.ReadLine()) != null)
+                while ((line = reader.ReadLine()) != null)
                 {
-                    
-                    foreach(char c in line)
+
+                    foreach (char c in line)
                     {
                         if (c != ' ')
                         {
                             strLine += c;
                         }
                     }
-                    
+
                     File.AppendAllText(newpath, strLine + Environment.NewLine);
-                    strLine = "";             
+                    strLine = "";
                 }
             }
             return newpath;
