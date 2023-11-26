@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB115245-269E-47E9-824F-528BE9A17877}</ProjectGuid>
+    <ProjectGuid>{E5DD3556-5508-4109-9427-021DB7024CAC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.AbdullinAI.Sprint5.Task2.V25.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.AbdullinAI.Sprint5.Task2.V25.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.AbdullinAI.Sprint5.Task7.V27.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.AbdullinAI.Sprint5.Task7.V27.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
