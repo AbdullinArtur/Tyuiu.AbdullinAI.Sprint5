@@ -39,6 +39,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="ttyuiu.cources.programming.interfaces">
+      <HintPath>..\ttyuiu.cources.programming.interfaces.dll</HintPath>
+    </Reference>
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
